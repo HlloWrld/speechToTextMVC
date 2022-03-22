@@ -40,7 +40,7 @@ public class SpeechController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    static string YourSubscriptionKey = "1ebf10647ec64e5d84887b9331702759";
+    static string YourSubscriptionKey = "KEY";
     static string YourServiceRegion = "eastus";
     public string OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecognitionResult)
     {
