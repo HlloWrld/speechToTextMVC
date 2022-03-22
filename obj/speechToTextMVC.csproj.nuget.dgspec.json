@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/d15tr1cktf0x/Documents/TCIB/Term 4/dotnet/speechToTextMVC/speechToTextMVC.csproj": {}
+    "/Users/ryan-dev/Documents/FULLSTACK/school-work/term-4/COMP-4514/c#_term_proj/speechToTextMVC/speechToTextMVC.csproj": {}
   },
   "projects": {
-    "/Users/d15tr1cktf0x/Documents/TCIB/Term 4/dotnet/speechToTextMVC/speechToTextMVC.csproj": {
+    "/Users/ryan-dev/Documents/FULLSTACK/school-work/term-4/COMP-4514/c#_term_proj/speechToTextMVC/speechToTextMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/d15tr1cktf0x/Documents/TCIB/Term 4/dotnet/speechToTextMVC/speechToTextMVC.csproj",
+        "projectUniqueName": "/Users/ryan-dev/Documents/FULLSTACK/school-work/term-4/COMP-4514/c#_term_proj/speechToTextMVC/speechToTextMVC.csproj",
         "projectName": "speechToTextMVC",
-        "projectPath": "/Users/d15tr1cktf0x/Documents/TCIB/Term 4/dotnet/speechToTextMVC/speechToTextMVC.csproj",
-        "packagesPath": "/Users/d15tr1cktf0x/.nuget/packages/",
-        "outputPath": "/Users/d15tr1cktf0x/Documents/TCIB/Term 4/dotnet/speechToTextMVC/obj/",
+        "projectPath": "/Users/ryan-dev/Documents/FULLSTACK/school-work/term-4/COMP-4514/c#_term_proj/speechToTextMVC/speechToTextMVC.csproj",
+        "packagesPath": "/Users/ryan-dev/.nuget/packages/",
+        "outputPath": "/Users/ryan-dev/Documents/FULLSTACK/school-work/term-4/COMP-4514/c#_term_proj/speechToTextMVC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/d15tr1cktf0x/.nuget/NuGet/NuGet.Config"
+          "/Users/ryan-dev/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
